@@ -1,4 +1,5 @@
 <?php 
+
 class CPF
 {
     private string $cpf;
