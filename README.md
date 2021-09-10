@@ -1,4 +1,4 @@
-# Improve POO with PHP
+# Improve POO skills with PHP
 
 ## Advabced Concepts 
 
