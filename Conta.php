@@ -25,23 +25,17 @@ class Conta
 
     //Destruct irá apagar da memória, as instâncias que não tiverem referências
     //Ao final de toda a execução, ele irá apagar da memória todas as instâncias
-    public function __destruct()
-    {   
-        echo "Instâncias sem referências" . PHP_EOL;
-        self::$totalContas--;
-    }
+    // public function __destruct()
+    // {   
+    //     echo "Instâncias sem referências" . PHP_EOL;
+    //     self::$totalContas--;
+    // }
 
     //Getters e Setters
 
-    public function getTitularCpf(): string 
+    public function getTitular(): Titular
     {
-        return $this->titular->getCpf();
-    }
-
-    
-    public function getNomeTitular(): string 
-    {
-        return $this->titular->getNome();
+        return $this->titular;
     }
 
     public function getSaldo(): float
@@ -105,8 +99,8 @@ class Conta
     public function getToString(): string
     {
         return  "Código Banco: " . self::$codigoBanco . PHP_EOL .
-                $this->titular->getToString() . 
-                "Saldo R$ $this->saldo" . PHP_EOL;
+                "Saldo R$ $this->saldo" . PHP_EOL .
+                $this->titular->getToString();    
     }
 
 }
