@@ -1,6 +1,6 @@
 # Improve POO skills with PHP
 
-## Advabced Concepts 
+## Advanced Concepts 
 
 ### Abstraction
 ### Encapasulation
