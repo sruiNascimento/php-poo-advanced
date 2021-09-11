@@ -1,7 +1,12 @@
 <?php 
-require 'Conta.php';
-//require 'Titular.php';
-require 'Funcionario.php';
+
+namespace Modelo;
+
+require_once 'Conta.php';
+require_once 'Titular.php';
+require_once 'Funcionario.php';
+require_once 'CPF.php';
+require_once 'Endereco.php';
 
 $endereco1 = new Endereco("London", "Smallville", "Wall Street", "1024P");
 echo $endereco1->getToString();

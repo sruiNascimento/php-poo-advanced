@@ -1,8 +1,6 @@
 <?php
 
-//require 'CPF.php';
-require 'Pessoa.php';
-require 'Endereco.php';
+namespace Modelo\Conta;
 
 class Titular extends Pessoa 
 {

@@ -1,5 +1,6 @@
 <?php 
-require 'CPF.php';
+
+
 class Pessoa 
 {
     private string $nome;

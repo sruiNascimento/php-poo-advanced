@@ -1,6 +1,6 @@
 <?php
 
-require 'Titular.php';
+namespace Modelo\Conta;
 
 class Conta
 {
