@@ -1,0 +1,15 @@
+{
+    "name": "rui/php-poo-advanced",
+    "authors": [
+        {
+            "name": "Rui Nascimento",
+            "email": "sruy19@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alura\\Banco\\": "php-poo-advanced"
+        }
+    },
+    "require": {}
+}

@@ -1,6 +1,7 @@
 <?php
 
-namespace Modelo\Conta;
+namespace Alura\Banco\src\Modelo\Conta;
+
 
 class Titular extends Pessoa 
 {

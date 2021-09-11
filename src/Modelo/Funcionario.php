@@ -1,5 +1,7 @@
 <?php
 
+namespace Alura\Banco\src\Modelo;
+
 
 //Classe deve ser implementado o pilar de Herança
 class Funcionario extends Pessoa 

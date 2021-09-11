@@ -1,12 +1,14 @@
 <?php 
+namespace Alura\Banco;
 
-namespace Modelo;
+use Alura\Banco\Modelo\Endereco;
 
-require_once 'Conta.php';
-require_once 'Titular.php';
-require_once 'Funcionario.php';
-require_once 'CPF.php';
-require_once 'Endereco.php';
+
+require_once 'src/Modelo/Conta/Conta.php';
+require_once 'src/Modelo/Endereco.php';
+require_once 'src/Modelo/Pessoa.php';
+require_once 'src/Modelo/Conta/Titular.php';
+require_once 'src/Modelo/CPF.php';
 
 $endereco1 = new Endereco("London", "Smallville", "Wall Street", "1024P");
 echo $endereco1->getToString();
